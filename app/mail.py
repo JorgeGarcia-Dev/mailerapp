@@ -80,9 +80,9 @@ def create():
 # :param content: El contenido del correo electrónico.
 def send(to, subject, content):
     # Crea un cliente SendGrid con la clave API especificada en la variable de configuración `SENDGRID_KEY`.
-    sg = sendgrid.SendGridAPIClient(api_key='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')
+    sg = sendgrid.SendGridAPIClient(api_key='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
     # `from_email` es un objeto que representa al remitente del correo electrónico.
-    from_email = Email('contacto@jorgegarciadev.com')
+    from_email = Email('prueba@email.com')
     # `To()` es una clase que crea un objeto que representa al destinatario del correo electrónico.
     to_email = To(to)
     # `Content()` es una clase que crea un objeto que representa el contenido del correo electrónico.
