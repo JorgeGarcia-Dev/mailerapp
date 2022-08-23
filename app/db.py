@@ -14,10 +14,10 @@ def get_db():
 
     # Crear una conexión a la base de datos.
         g.db = mysql.connector.connect(
-            host = 'XXXXXXXXXX',
-            user = 'XXXXXXXXXXX',
-            password = 'XXXXXXXXXXXXX',
-            database = 'XXXXXXXXX',
+            host = 'us-cdbr-east-06.cleardb.net',
+            user = 'b996d32cfcda6c',
+            password = '94b4fdcf',
+            database = 'heroku_98185ab42c77db5',
         )
 
         # Creación de un objeto de cursor que se utilizará para ejecutar sentencias SQL.
